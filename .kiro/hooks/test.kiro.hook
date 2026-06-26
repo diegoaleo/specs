@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "name": "Test1",
+  "description": "Test",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "dir"
+  },
+  "workspaceFolderName": "specs",
+  "shortName": "test"
+}
