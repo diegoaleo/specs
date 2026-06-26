@@ -7,6 +7,7 @@ import asyncio
 async def a() :
     store = app.store.url_store.URLStore("sqlite+aiosqlite:///./urls.db")
     await store.initialize()
+    
     date = "2026-01-01 14:00:00"
     valid_date = datetime.fromisoformat(date)
     mapping_obj = Mapping(    
